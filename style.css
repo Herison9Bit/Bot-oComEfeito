@@ -37,3 +37,7 @@ body{
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
 }
+.button::before{
+    content: "";
+    position: absolute;
+}
